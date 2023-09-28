@@ -15,7 +15,7 @@ body {
 
 .sidebar {
     background-color: black;
-    width: 340px;
+    width: 350px;
     border-radius: 1rem;
     margin: 0.5rem;
 
@@ -113,7 +113,7 @@ a {
 }
 
 .box-p1 {
-    font-size: 1rem;
+    font-size: 1zrem;
     font-weight: 500;
 }
 
@@ -130,7 +130,7 @@ a {
     font-weight: 600;
     margin: 0.6rem;
     height: 2rem;
-    width: f;
+    width: fit-content;
 }
 
 .dark-bagde {
