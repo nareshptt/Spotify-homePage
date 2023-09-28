@@ -10,14 +10,14 @@ body {
 .main {
     display: flex;
     height: 100vh;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 .sidebar {
     background-color: black;
     width: 350px;
     border-radius: 1rem;
-    margin: 0.5rem;
+    margin: 0.3rem;
 
 }
 
@@ -27,6 +27,8 @@ body {
     border-radius: 1rem;
     overflow: auto;
     width: 100px;
+    margin: 0.5rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player {
@@ -146,6 +148,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 
 .sticynav-icons {
@@ -166,4 +169,48 @@ a {
     .hide {
         display: none;
     }
+}
+
+.card {
+    background-color: #232323;
+    width: 150px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-imag {
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-information {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
 }
