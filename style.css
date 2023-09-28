@@ -257,5 +257,25 @@ a {
 }
 
 .progressbar {
-    width: 70%;
+    width: 60%;
+}
+
+.play-card {
+    display: flex;
+    height: 10%;
+    width: 20%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.playcard-title {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.ptitle {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 50%;
 }
